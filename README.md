@@ -1,4 +1,4 @@
-<h1> Login page <\h1>
+<B> <h1> Login page </h1> </B>
 
 This is project of logic page , which is user freindly
 

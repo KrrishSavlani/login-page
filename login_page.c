@@ -8,26 +8,19 @@ char f_name[10] , m_name[10] , l_name[10]  ;
 void password()
 
 {
-    
   long int password , re_pass ;
-    
   do
-
-    {
-
-        
+    {  
        clrscr();
-        
+       
        printf("%s %s %s " , f_name , m_name , l_name);
  
        printf("\nenter 6 digit password : " );
        scanf("%d" , &password);
  
-
-
     }while(password < 100000 || password > 999999 );
  
-     //reemter the password
+     //re-enter the password
     do
     {
      printf("\nReenter your password :- ");
@@ -46,15 +39,11 @@ void password()
 
 
 void name()
-
 {
-  
     int rename;
     clrscr();
     do 
     {
-   
-      
            clrscr();
            printf("first name :- ") ;
            scanf("%s" ,&f_name);
@@ -74,8 +63,6 @@ void name()
         }while(rename == 1 );
   
  getch();
-
-
 }
 
 int main() {
